@@ -1,0 +1,84 @@
+.body {
+    font-family: "Roboto", "serif";
+
+    font-style: normal;
+}
+
+.link{
+    text-decoration: none;
+    list-style: none;
+} 
+
+.nomber-mail 
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.nomber-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.logo{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+}
+
+
+.black
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.address{
+    font-style: normal;
+    list-style: none;
+}
+
+.bottom{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.about{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.location{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}

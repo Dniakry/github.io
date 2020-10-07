@@ -1,37 +1,167 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Dniakry/github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dniakry/github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+          <meta charset="UTF-8">
+          <meta name="description" content="WebStudio">
+          <meta name="keywords" content="portfolio"> 
+          <title lang="en">
+              WebStudio 
+          </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    </head>   
+        <body class="body">
+            <header>
+                <a class="link logo" href="./homework.html">
+                   WebStudio  
+                </a>
+                <ul>
+                    <li class="link">
+                        <a class="link" href="">студия</a>
+                    </li>
+                    <li class="link">
+                        <a class="link" href="">портфолио</a>
+                    </li>
+                    <li class="link">
+                        <a class="link" href="">контакти</a>
+                    </li>
+                  </ul>
+                </nav>
+                 <address class="address">
+                     <ul>
+                        <li class="link">
+                            <a class="nomber-mail link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                        <li class="link">
+                            <a class="nomber-tel link" href="mailto:isfo@devstudio.com">isfo@devstudio.com</a>
+                        </li>
+                    </ul>
+                 </address>
+            </header>
+            <main>
+                <div>
+                    <button class="button" type="button">
+                        все
+                    </button>
+                    <button class="button" type="button">
+                        Веб-сайты
+                    </button>
+                    <button class="button" type="button">
+                        Приложения
+                    </button>
+                    <button class="button" type="button">
+                        Дизайн
+                    </button>
+                    <button class="button" type="button">
+                        Маркетинг
+                    </button>
+                </div>
+                <ul>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img.png" alt="ноутбук с изображением" width="370" height="294">
+                    <h4  class="about">
+                        Технокряк
+                    </h4>
+                    <p>
+                        Веб-сайт
+                    </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (1).png" alt="игра в баскетбол" width="370" height="294">
+                    <h4  class="about">
+                        Постер New Orlean vs Golden Star
+                    </h4>
+                    <p>
+                        Дизайн
+                    </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (2).png" alt="логотип ресторана" width="370" height="294">
+                    <h4 class="about">
+                        Ресторан seafood
+                    </h4>
+                     <p>
+                         Приложение
+                     </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (3).png" alt="наушники" width="370" height="294">
+                    <h4 class="about">
+                        Проект Prime
+                    </h4>
+                    <p>
+                        Маркетинг
+                    </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (4).png" alt="две коробки" width="370" height="294">
+                    <h4  class="about">
+                        Проект boxes
+                    </h4 >
+                    <p>
+                        Приложение
+                    </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (5).png" alt="монитор" width="370" height="294">
+                    <h4 class="about">
+                        Inspiration has no Borders
+                    </h4>
+                    <p>
+                        Веб-сайт
+                    </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (6).png" alt="книжки" width="370" height="294">
+                    <h4 class="about">
+                        Издание Limited Edition
+                    </h4>
+                    <p>
+                        Дизайн
+                    </p>
+                    </li>
+                    <li class="link">
+                    <img src="./programm/images/homework2/img (7).png" alt="логотип бренда" width="370" height="294">
+                    <h4  class="about">
+                        Проект Lab
+                    </h4>
+                    <p>
+                        Маркетинг
+                    </p>
+                    </li>
+                    <li class="link"> 
+                    <img src="./programm/images/homework2/img (8).png" alt="работа за ноутбуком" width="370" height="294">
+                    <h4 class="about">
+                        Growing Business
+                    </h4>
+                    <P>
+                        Приложение
+                    </P>
+                    </li>
+                </ul>
+            
+            <footer>
+                <address>
+                  <ul>
+                      <li class="link">
+                        <a class="link logo" href="file:///D:/Games/github.io/index.html"> WebStudio
+                        </a>
+                      </li>
+                      <li class="link">
+                        <a class="link location" href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                            >г. Киев, пр-т Леси Украинки, 26
+                        </a>
+                      </li>
+                      <li class="link">
+                          <a class="link nomber-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                      </li>
+                      <li class="link">
+                          <a class="link nomber-mail" href="mailto:isfo@devstudio.com">isfo@devstudio.com</a>
+                      </li>
+                    </ul> 
+                </address>
+            </footer>
+       </body>
+</html>
